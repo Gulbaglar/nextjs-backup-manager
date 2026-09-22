@@ -50,6 +50,21 @@ npm run dev
 - **Mode-aware restore is not optional.** The first version of the mode split didn't gate the uploads-sync step on the backup's mode — restoring a `content`-only backup would delete every file in `public/uploads` to match the (empty) upload list inside that archive. Caught before release by actually restoring a `content` backup and diffing `public/uploads` before/after. If you're extending this, any new backup mode needs the same "what does this NOT touch" review, not just "what does it include."
 - **Test the restore, not just the backup.** It's easy to verify that `createBackup()` produces a valid-looking zip and stop there. The bug above only showed up when a backup was actually *restored* and the result compared against what should not have changed.
 
+## ☕ Support the Project
+
+This project is free and open source.
+
+If it saved you time, helped your project, or you simply want to support future development, you can buy me a coffee. ❤️
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-orange?style=for-the-badge&logo=buymeacoffee)](https://www.buymeacoffee.com/Gulbaglar)
+
+Thank you for supporting open-source development!
+
+## Author
+
+**Kahraman Gülbağlar**
+https://www.gulbaglar.com
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
