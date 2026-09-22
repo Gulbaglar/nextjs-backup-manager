@@ -50,6 +50,21 @@ npm run dev
 - **Moda duyarlı geri yükleme opsiyonel değil.** Mod ayrımının ilk sürümü, yüklemeleri eşitleme adımını yedeğin moduna göre kapılamıyordu — sadece `content` yedeğini geri yüklemek, `public/uploads`'taki her dosyayı o arşivin içindeki (boş) yükleme listesiyle eşleştirmek için SİLECEKTİ. Yayından önce, gerçekten bir `content` yedeği geri yüklenip `public/uploads`'ın öncesi/sonrası kıyaslanarak yakalandı. Bunu genişletiyorsanız, yeni bir yedek modu eklerken "bu neye DOKUNMUYOR" sorusunu da "bu neyi içeriyor" kadar ciddiye alın.
 - **Yedeği değil, geri yüklemeyi test edin.** `createBackup()`'ın geçerli görünen bir zip ürettiğini doğrulayıp orada durmak kolay. Yukarıdaki hata ancak bir yedek gerçekten *geri yüklenip* sonuç, değişmemesi gerekenle kıyaslanınca ortaya çıktı.
 
+## ☕ Projeyi Destekle
+
+Bu proje ücretsiz ve açık kaynaklıdır.
+
+Eğer işini kolaylaştırdıysa, projen için faydalı olduysa veya gelecekteki geliştirmeleri desteklemek istiyorsan bana bir kahve ısmarlayabilirsin. ❤️
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Destek%20Ol-orange?style=for-the-badge&logo=buymeacoffee)](https://www.buymeacoffee.com/Gulbaglar)
+
+Açık kaynak geliştirmeyi desteklediğin için teşekkür ederim!
+
+## Geliştirici
+
+**Kahraman Gülbağlar**
+https://www.gulbaglar.com
+
 ## Lisans
 
 MIT — bkz. [LICENSE](LICENSE).
